@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="제출 시 가는 서버주소" method="get">
+		<p>이름: <input type="text" name="uname" /><br /></p>
+		<p>아이디: <input type="text" name="uid" /><br /></p>
+		<p>비밀번호: <input type="password" name="upw"/><br /></p>
+		<p>연락처: <input type="text" name="uphone1" size="5" /> -
+			<input type="text" name=uphone2" size="5" /> - 
+			<input type="text" name=uphone3" size="5" /><br/></p>
+		<p>사진: <input type="file" name="upic"/><br /></p>
+		<p>성별구분: <input type="radio" name=gender" value="m">남,
+		        <input type="radio" name=gender" value="w">여<br />
+		<p>사용영어: <input type="checkbox" name="lan" value="kor" checked="checked"/>한글,
+				<input type="checkbox" name="lan" value="eng" checked="checked"/>영어,
+				<input type="checkbox" name="lan" value="jap" checked="checked"/>일어,
+				<input type="checkbox" name="lan" value="chi" checked="checked"/>중국어<br/></p>
+		<p>자기소개: <textarea rows="5" cols="20">간단히 입력하세요</textarea><br/></p>
+		<p>국적: <select>
+				<option>Korea</option>
+				<option>USA</option>
+				<option>Japan</option>
+				<option>China</option>
+			</select><br/></p>
+		<p>좋아하는 음식: <select multiple="multiple">
+					<option>김치</option>
+					<option>햄버거</option>
+					<option>초밥</option>
+					<option>짜장면</option>
+			</select><br/></p>
+			<input type="submit"/>
+	</form>
+
+</body>
+</html>
