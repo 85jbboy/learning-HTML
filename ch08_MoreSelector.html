@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	#header {
+		border-bottom: 1px solid black;
+	}
+	
+	#history2:first-letter, #history1:first-letter {
+		font-size: 2em;
+	}
+	
+	#history2:first-line, #history1:first-line {
+		color: blue;
+		font-weight: bold;
+	}
+	
+	#nav ul li a:after {		
+		content: '-' attr(href);
+	}
+	
+	#nav ul li:not(.daum) {
+		background-color: green;
+	}
+	
+	#content p:first-child::selection{
+		background-color:red;
+		color:yellow;
+	}
+	
+	#footer ul {
+		border: 1px solid black;
+		overflow:hidden;
+	}
+	
+	#footer ul li{
+		list-style: none;
+		float:left;
+		padding: 20px;
+	}
+</style>
+
+
+</head>
+<body>
+	<div id="header">
+		<h1> 설립개요</h1>
+	</div>
+	
+	<div id="nav">
+		<ul>
+			<li><a href="http://www.naver.com">네이버</a></li>
+			<li class="daum"><a href="http://www.daum.net">다음</a></li>
+			<li><a href="http://www.google.com">구글</a></li>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<p>
+		  중소기업은 블라 블라 여기에 말도 안 되는 한글을 쓰면 안 되는거구나. EUC-KR 은 정상적인 한글을 지원하는 것이로구만 ㅋㅋㅋ 아이 가릿!
+		</p>
+		
+		<p id="history2">
+		  2015년 5월 20일<br/> 새로운 시작을 시작함.
+		</p>
+		
+		<p id="history1">
+		  2013년 3월<br/> 탄생을 축하하네.  
+		</p>
+	</div>
+	
+		
+	<div id="footer">
+		<ul>
+			<li><img src="C:\Users\85jbb\Pictures\Camera Roll\mypic.jpg" width="50" height="50"></li>
+			<li><img src="C:\Users\85jbb\Pictures\Camera Roll\mypic2.jpg" width="200" height="50"></li>
+		</ul>
+		
+		
+	</div>
+
+</body>
+</html>

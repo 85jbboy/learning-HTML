@@ -5,9 +5,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="제출 시 가는 서버주소" method="get">
-		<p>이름: <input type="text" name="uname" /><br /></p>
-		<p>아이디: <input type="text" name="uid" /><br /></p>
+
+	<form action="requestparam.jsp" method="post">
+		<p>이름: <input type="text" name="uname" size="10"><br /></p>
+		<p>아이디: <input type="text" name="uid" size="10"><br /></p>
 		<p>비밀번호: <input type="password" name="upw"/><br /></p>
 		<p>연락처: <input type="text" name="uphone1" size="5" /> -
 			<input type="text" name=uphone2" size="5" /> - 
@@ -32,7 +33,8 @@
 					<option>초밥</option>
 					<option>짜장면</option>
 			</select><br/></p>
-			<input type="submit"/>
+		<input type="submit" value="전송">
+		<input type="reset" value="초기화">
 	</form>
 
 </body>

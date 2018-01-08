@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+	<style>
+		body div div{
+			width:80px;
+			height:80px;
+			color: white;
+			font-weight:bold;
+			text-align:center;
+		}
+		
+		#display_none div:nth-child(1) {
+			background-color:red;
+		}
+		#display_none div:nth-child(2) {
+			display:none;
+		}
+		
+		#display_none div:nth-child(3) {
+			background-color:blue;
+			display:inline-block;
+		}
+		#visibility_hidden div:nth-child(1) {
+			background-color:red;
+			overflow:hidden;
+		}
+		
+		#visibility_hidden div:nth-child(2) {
+			visibility:hidden;
+			
+		}
+		
+		#visibility_hidden div:nth-child(3) {
+			background-color:blue;
+		}
+	
+	</style>
+
+
+</head>
+<body>
+	<div id="display_none">
+		<div>content1</div>
+		<div>content2</div>
+		<div>content3</div>
+	</div>
+
+	<div id="visibility_hidden">
+		<div>content1</div>
+		<div>content2</div>
+		<div>content3</div>
+	</div>
+</body>
+</html>

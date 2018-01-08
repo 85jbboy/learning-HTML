@@ -5,19 +5,20 @@
 <meta charset="EUC-KR">
 <title></title>
 <style>
-*{
+* {
 	font-weight: bold;
 }
+
 #header {
 	width: 500px;
 	border: 1px solid gray;
 	text-align: center;
-	background-color: yellow; 	
+	background-color: yellow;
 }
 
 #wrap {
 	width: 500px;
-	border: 1px solid orange;
+	border: 5px solid green;
 	background-color: skyblue;
 	text-align: center;
 	overflow: hidden;
@@ -42,13 +43,17 @@
 	clear: both;
 }
 
-.menu1 {
+li {
 	color: red;
-	font-size: 30px;
 }
 
 .menu1, .menu3, .menu5 {
+	font-size: 3em;
 	color: blue;
+}
+
+ol li.menu {
+	color: orange;
 }
 </style>
 </head>
@@ -68,12 +73,19 @@
 				<li class="menu4">menu4</li>
 				<li class="menu5">menu5</li>
 			</ul>
+			<ol>
+				<li class="menu">menu1</li>
+				<li>menu2</li>
+				<li class="menu">menu3</li>
+				<li>menu4</li>
+				<li class="menu">menu5</li>
+			</ol>
 		</div>
 
 		<div id="side_banner">
 			<h1>BANNER</h1>
-			<a href="www.googlelcom"> click
-			<img src="C:\Users\85jbb\Pictures\Camera Roll\mypic2.jpg" width=80 />
+			<a href="www.googlelcom"> click <img
+				src="C:\Users\85jbb\Pictures\Camera Roll\mypic2.jpg" width=80 />
 			</a>
 		</div>
 	</div>
